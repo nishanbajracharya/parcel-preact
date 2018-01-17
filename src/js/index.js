@@ -1,5 +1,6 @@
 import preact from 'preact';
 
+import 'normalize.css';
 import '../css/style.css';
 
 import App from './app';

@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/nishanbajracharya/parcel-preact#readme",
   "dependencies": {
+    "normalize.css": "^7.0.0",
     "preact": "^8.2.7",
     "preact-compat": "^3.17.0"
   },
