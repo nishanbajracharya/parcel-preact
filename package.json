@@ -1,0 +1,34 @@
+{
+  "name": "parcel-preact",
+  "version": "1.0.0",
+  "description": "A basic preact starter bundled using parcel",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishanbajracharya/parcel-preact.git"
+  },
+  "keywords": [
+    "preact",
+    "parcel",
+    "parcel-bundler"
+  ],
+  "author": "Nishan Bajracharya <nisbaj11@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nishanbajracharya/parcel-preact/issues"
+  },
+  "homepage": "https://github.com/nishanbajracharya/parcel-preact#readme",
+  "dependencies": {
+    "preact": "^8.2.7",
+    "preact-compat": "^3.17.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-preact": "^1.1.0",
+    "parcel-bundler": "^1.4.1"
+  }
+}
