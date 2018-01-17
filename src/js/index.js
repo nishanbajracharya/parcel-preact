@@ -1,11 +1,13 @@
-import { h, render } from 'preact';
+import preact from 'preact';
 
 import '../css/style.css';
 
-render(
-  <div id="foo">
-    <span>Hello, world!</span>
-    <button onClick={e => alert('hi!')}>Click Me</button>
-  </div>,
-  document.getElementById('app')
+import App from './app';
+
+const wrapper = document.getElementById('app');
+
+preact.render(
+  <App />,
+  wrapper,
+  wrapper.lastChild
 );
